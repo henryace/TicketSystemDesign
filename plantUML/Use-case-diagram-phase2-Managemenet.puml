@@ -1,0 +1,15 @@
+@startuml
+
+left to right direction
+package Root {
+  actor "Administrator" as admin
+}
+
+
+package User {
+  usecase "Add QA/RD/PM" as AddStuffs
+}
+
+admin --> AddStuffs
+
+@enduml

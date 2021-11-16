@@ -1,0 +1,24 @@
+@startuml
+
+left to right direction
+package User {
+  actor QA as QA
+  actor RD as RD
+  actor PM as PM
+}
+package "User" {
+  usecase "Create" as TCCreate
+  usecase "Read" as TCRead
+  usecase "Edit" as TCEdit
+  usecase "Delete" as TCDelete
+  usecase "Resolve" as TCResolve
+}
+QA --> TCCreate
+QA --> TCEdit
+QA --> TCRead
+RD --> TCRead
+PM --> TCRead
+QA --> TCDelete
+QA --> TCResolve
+
+@enduml

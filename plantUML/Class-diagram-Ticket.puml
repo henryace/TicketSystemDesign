@@ -1,0 +1,13 @@
+@startuml
+class Ticket {
+  {field} Type
+  {field} Summary
+  {field} Description
+  {field} Priority 
+  {field} Severity 
+  {method} Create()
+  {method} Edit()
+  {method} Delete()
+  {method} Resolve()
+}
+@enduml
