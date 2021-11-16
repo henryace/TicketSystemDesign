@@ -1,0 +1,19 @@
+@startuml
+
+left to right direction
+package User {
+  actor PM as PM
+  actor RD as RD
+}
+package "Ticket: Feature Request" {
+  usecase "Create" as FRreate
+  usecase "Edit" as FREdit
+  usecase "Delete" as FRDelete
+  usecase "Resolve" as FResolve
+}
+PM --> FRreate
+PM --> FREdit
+PM --> FRDelete
+RD --> FResolve
+
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+
+left to right direction
+package User {
+  actor QA as QA
+  actor RD as RD
+}
+package "Ticket: Bug" {
+  usecase "Create" as BugCreate
+  usecase "Edit" as BugEdit
+  usecase "Delete" as BugDelete
+  usecase "Resolve" as BugResolve
+}
+QA --> BugCreate
+QA --> BugEdit
+QA --> BugDelete
+RD --> BugResolve
+
+@enduml
