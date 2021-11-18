@@ -22,7 +22,7 @@ namespace TicketSystemDesign.Controllers
         // GET: Tickets
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Ticket.ToListAsync());
+            return View(await _context.Tickets.ToListAsync());
         }
 
         // GET: Tickets/Details/5
@@ -33,7 +33,7 @@ namespace TicketSystemDesign.Controllers
                 return NotFound();
             }
 
-            var ticket = await _context.Ticket
+            var ticket = await _context.Tickets
                 .FirstOrDefaultAsync(m => m.TicketId == id);
             if (ticket == null)
             {
@@ -73,7 +73,7 @@ namespace TicketSystemDesign.Controllers
                 return NotFound();
             }
 
-            var ticket = await _context.Ticket.FindAsync(id);
+            var ticket = await _context.Tickets.FindAsync(id);
             if (ticket == null)
             {
                 return NotFound();
@@ -124,7 +124,7 @@ namespace TicketSystemDesign.Controllers
                 return NotFound();
             }
 
-            var ticket = await _context.Ticket
+            var ticket = await _context.Tickets
                 .FirstOrDefaultAsync(m => m.TicketId == id);
             if (ticket == null)
             {
@@ -139,15 +139,15 @@ namespace TicketSystemDesign.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
-            var ticket = await _context.Ticket.FindAsync(id);
-            _context.Ticket.Remove(ticket);
+            var ticket = await _context.Tickets.FindAsync(id);
+            _context.Tickets.Remove(ticket);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool TicketExists(string id)
         {
-            return _context.Ticket.Any(e => e.TicketId == id);
+            return _context.Tickets.Any(e => e.TicketId == id);
         }
     }
 }

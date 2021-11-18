@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\TicketSystemDesign\\TicketSystemDesign\\TicketSystemDesign.csproj": {}
+    "C:\\Users\\henrychiang\\Documents\\GitHub\\TicketSystemDesign\\TicketSystemDesign\\TicketSystemDesign.csproj": {}
   },
   "projects": {
-    "D:\\Git\\TicketSystemDesign\\TicketSystemDesign\\TicketSystemDesign.csproj": {
+    "C:\\Users\\henrychiang\\Documents\\GitHub\\TicketSystemDesign\\TicketSystemDesign\\TicketSystemDesign.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\TicketSystemDesign\\TicketSystemDesign\\TicketSystemDesign.csproj",
+        "projectUniqueName": "C:\\Users\\henrychiang\\Documents\\GitHub\\TicketSystemDesign\\TicketSystemDesign\\TicketSystemDesign.csproj",
         "projectName": "TicketSystemDesign",
-        "projectPath": "D:\\Git\\TicketSystemDesign\\TicketSystemDesign\\TicketSystemDesign.csproj",
-        "packagesPath": "C:\\Users\\henry\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\TicketSystemDesign\\TicketSystemDesign\\obj\\",
+        "projectPath": "C:\\Users\\henrychiang\\Documents\\GitHub\\TicketSystemDesign\\TicketSystemDesign\\TicketSystemDesign.csproj",
+        "packagesPath": "C:\\Users\\henrychiang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\henrychiang\\Documents\\GitHub\\TicketSystemDesign\\TicketSystemDesign\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\henrychiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -73,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
