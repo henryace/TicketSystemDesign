@@ -15,10 +15,14 @@ namespace TicketSystemDesign.Data
         }
 
         public DbSet<TicketSystemDesign.Models.Ticket> Tickets { get; set; }
+        public DbSet<TicketSystemDesign.Models.User> Users { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Ticket>().ToTable("Ticket");
+            modelBuilder.Entity<User>().ToTable("User");
+
 
         }
     }

@@ -143,7 +143,6 @@ D:\Git\TicketSystemDesign\TicketSystemDesign\bin\Debug\net5.0\runtimes\win-arm\l
 D:\Git\TicketSystemDesign\TicketSystemDesign\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\Git\TicketSystemDesign\TicketSystemDesign\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\Git\TicketSystemDesign\TicketSystemDesign\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Git\TicketSystemDesign\TicketSystemDesign\obj\Debug\net5.0\TicketSystemDesign.csproj.AssemblyReference.cache
 D:\Git\TicketSystemDesign\TicketSystemDesign\obj\Debug\net5.0\Razor\Views\Tickets\Create.cshtml.g.cs
 D:\Git\TicketSystemDesign\TicketSystemDesign\obj\Debug\net5.0\Razor\Views\Tickets\Delete.cshtml.g.cs
 D:\Git\TicketSystemDesign\TicketSystemDesign\obj\Debug\net5.0\Razor\Views\Tickets\Details.cshtml.g.cs
@@ -299,3 +298,13 @@ C:\Users\henrychiang\Documents\GitHub\TicketSystemDesign\TicketSystemDesign\obj\
 C:\Users\henrychiang\Documents\GitHub\TicketSystemDesign\TicketSystemDesign\obj\Debug\net5.0\ref\TicketSystemDesign.dll
 C:\Users\henrychiang\Documents\GitHub\TicketSystemDesign\TicketSystemDesign\obj\Debug\net5.0\TicketSystemDesign.pdb
 C:\Users\henrychiang\Documents\GitHub\TicketSystemDesign\TicketSystemDesign\obj\Debug\net5.0\TicketSystemDesign.genruntimeconfig.cache
+D:\Git\TicketSystemDesign\TicketSystemDesign\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+D:\Git\TicketSystemDesign\TicketSystemDesign\bin\Debug\net5.0\EntityFramework.dll
+D:\Git\TicketSystemDesign\TicketSystemDesign\bin\Debug\net5.0\System.CodeDom.dll
+D:\Git\TicketSystemDesign\TicketSystemDesign\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Git\TicketSystemDesign\TicketSystemDesign\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Git\TicketSystemDesign\TicketSystemDesign\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Git\TicketSystemDesign\TicketSystemDesign\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Git\TicketSystemDesign\TicketSystemDesign\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Git\TicketSystemDesign\TicketSystemDesign\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Git\TicketSystemDesign\TicketSystemDesign\obj\Debug\net5.0\TicketSystemDesign.csproj.AssemblyReference.cache
